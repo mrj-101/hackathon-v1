@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hackathon 2025</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/portal.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+</head>
+
+<body class="app">
+
+  <my-header></my-header>
+
+  <div class="app-wrapper">
+    <div class="app-content pt-3 p-md-3 p-lg-4">
+      <div class="container-xl">
+        <h1 class="text-center">Product</h1>
+
+        <div id="products" class="row row-cols-2 row-cols-md-4 bg-white py-2 row-gap-3 rounded-md">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/partial.js"></script>
+  <script src="assets/js/all.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
+
+<script>
+
+  document.addEventListener('DOMContentLoaded', async function () {
+    await fetch('https://fakestoreapi.com/products/')
+      .then(res => res.json())
+      .then(json => {
+        if (json.length == 0) {
+
+        } else {
+          let data = ``
+          json.forEach(prod => {
+            data += `
+            <div class="col">
+              <div class="card h-100" style="width: 18rem;">
+                <img src="${prod.image}" class="card-img-top img-thumbnail w-64" alt="${prod.id}">
+                <div class="card-body">
+                  <h5 class="card-title">${prod.title}</h5>
+                  <p class="card-text">${prod.category}</p>
+                  <a href="#" class="btn bg-danger text-white">Details</a>
+                </div>
+              </div>
+            </div>
+          `
+          });
+          document.querySelector("#products").innerHTML = data
+        }
+      })
+      .catch(err => {
+        console.log(`Error: ${err}`)
+      })
+  })
+
+</script>
