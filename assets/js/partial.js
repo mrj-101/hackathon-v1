@@ -66,7 +66,6 @@ class MyHeader extends HTMLElement {
 						</li>
 					</ul>
 				</nav>
-
 			</div>
 		</div>
 	</header>

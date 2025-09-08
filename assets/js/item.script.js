@@ -54,7 +54,6 @@ function renderHotelRoom(foods) {
                         <div class="modal-body">
                             <h6>วัตถุดิบหลัก</h6>
                             <p class="card-text">${f.ingredients}</p>
-
                             <div class="alert alert-danger d-flex align-items-center" role="alert">
                             <i class="bi bi-exclamation-triangle-fill me-2"></i>
                             <span>⚠ อาหารนี้มีส่วนผสมของ: <strong>${f.allergens}</strong></span>
