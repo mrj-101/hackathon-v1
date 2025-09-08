@@ -1,0 +1,891 @@
+{
+  "accommodations": [
+    {
+      "id": 1,
+      "name": "โรงแรมเซ็นทรัล แกรนด์ กรุงเทพ",
+      "type": "hotel",
+      "location": {
+        "city": "กรุงเทพมหานคร",
+        "district": "ปทุมวัน",
+        "address": "999/99 ถนนราชดำริ แขวงปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330",
+        "coordinates": {
+          "lat": 13.7463,
+          "lng": 100.5398
+        }
+      },
+      "description": "โรงแรมหรู 5 ดาวใจกลางกรุงเทพฯ ใกล้ BTS ชิดลม พร้อมสิ่งอำนวยความสะดวกครบครัน",
+      "amenities": [
+        "WiFi ฟรี",
+        "สระว่ายน้ำ",
+        "ฟิตเนส",
+        "สปา",
+        "ห้องอาหาร",
+        "ที่จอดรถ",
+        "แอร์",
+        "มินิบาร์"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800",
+        "https://images.unsplash.com/photo-1578774204375-8f2c5bb90229?w=800"
+      ],
+      "rating": 4.8,
+      "reviews": 1247,
+      "price_per_night": 3500,
+      "currency": "THB",
+      "rooms_available": 12,
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "02-123-4567",
+        "email": "info@centralgrandbkk.com"
+      }
+    },
+    {
+      "id": 2,
+      "name": "วิลล่าสีฟ้า ชะอำ",
+      "type": "villa",
+      "location": {
+        "city": "เพชรบุรี",
+        "district": "ชะอำ",
+        "address": "88/1 หมู่ 3 ต.ชะอำ อ.ชะอำ จ.เพชรบุรี 76120",
+        "coordinates": {
+          "lat": 12.7885,
+          "lng": 99.9661
+        }
+      },
+      "description": "วิลล่าส่วนตัวริมทะเลชะอำ พร้อมสระว่ายน้ำส่วนตัว เหมาะสำหรับครอบครัว",
+      "amenities": [
+        "WiFi ฟรี",
+        "สระว่ายน้ำส่วนตัว",
+        "ครัวส่วนตัว",
+        "ที่จอดรถ",
+        "แอร์",
+        "เตียงพิเศษ",
+        "ริมทะเล"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800"
+      ],
+      "rating": 4.6,
+      "reviews": 89,
+      "price_per_night": 2800,
+      "currency": "THB",
+      "rooms_available": 3,
+      "check_in": "15:00",
+      "check_out": "11:00",
+      "cancellation_policy": "ไม่สามารถยกเลิกได้",
+      "contact": {
+        "phone": "032-555-0123",
+        "email": "booking@bluevilla.com"
+      }
+    },
+    {
+      "id": 3,
+      "name": "เขาใหญ่ มาร์เก็ต รีสอร์ท",
+      "type": "resort",
+      "location": {
+        "city": "นครราชสีมา",
+        "district": "ปากช่อง",
+        "address": "456 หมู่ 8 ต.ปากช่อง อ.ปากช่อง จ.นครราชสีมา 30130",
+        "coordinates": {
+          "lat": 14.6291,
+          "lng": 101.3725
+        }
+      },
+      "description": "รีสอร์ทสไตล์ยุโรปท่ามกลางธรรมชาติเขาใหญ่ อากาศเย็นสบาย",
+      "amenities": [
+        "WiFi ฟรี",
+        "ร้านอาหาร",
+        "ที่จอดรถ",
+        "แอร์",
+        "ห้องประชุม",
+        "สวน",
+        "เตาผิง"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1587061949409-02df41d5e562?w=800",
+        "https://images.unsplash.com/photo-1455587734955-081b22074882?w=800",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800"
+      ],
+      "rating": 4.4,
+      "reviews": 234,
+      "price_per_night": 1800,
+      "currency": "THB",
+      "rooms_available": 8,
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "cancellation_policy": "ยกเลิกฟรี 48 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "044-321-9876",
+        "email": "stay@khaoyaimarket.com"
+      }
+    },
+    {
+      "id": 4,
+      "name": "บ้านดอกไม้ เชียงใหม่",
+      "type": "guesthouse",
+      "location": {
+        "city": "เชียงใหม่",
+        "district": "เมืองเชียงใหม่",
+        "address": "77/3 ถนนนิมมานเหมินท์ ต.สุเทพ อ.เมือง จ.เชียงใหม่ 50200",
+        "coordinates": {
+          "lat": 18.7956,
+          "lng": 98.9625
+        }
+      },
+      "description": "เกสต์เฮาส์บูติกในย่านนิมมาน ตแต่งสวยงาม ใกล้มหาวิทยาลัยเชียงใหม่",
+      "amenities": [
+        "WiFi ฟรี",
+        "ที่จอดรถ",
+        "แอร์",
+        "เครื่องชงกาแฟ",
+        "สวน",
+        "ระเบียง"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1586611292717-f828b167408c?w=800",
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800",
+        "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800"
+      ],
+      "rating": 4.7,
+      "reviews": 156,
+      "price_per_night": 1200,
+      "currency": "THB",
+      "rooms_available": 5,
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "053-876-5432",
+        "email": "info@flowerhouse.com"
+      }
+    },
+    {
+      "id": 5,
+      "name": "สวนผึ้ง โฮมสเตย์",
+      "type": "homestay",
+      "location": {
+        "city": "ราชบุรี",
+        "district": "สวนผึ้ง",
+        "address": "25/8 หมู่ 5 ต.สวนผึ้ง อ.สวนผึ้ง จ.ราชบุรี 70180",
+        "coordinates": {
+          "lat": 13.4998,
+          "lng": 99.2236
+        }
+      },
+      "description": "โฮมสเตย์ท่ามกลางสวนผลไม้ บรรยากาศชนบท เหมาะสำหรับพักผ่อน",
+      "amenities": [
+        "WiFi ฟรี",
+        "ที่จอดรถ",
+        "พัดลม",
+        "จักรยาน",
+        "สวนผลไม้",
+        "กิจกรรมท้องถิ่น"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+        "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=800",
+        "https://images.unsplash.com/photo-1502780402662-acc01917e80e?w=800"
+      ],
+      "rating": 4.5,
+      "reviews": 67,
+      "price_per_night": 800,
+      "currency": "THB",
+      "rooms_available": 4,
+      "check_in": "15:00",
+      "check_out": "10:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "032-123-7890",
+        "email": "stay@suanphueng.com"
+      }
+    },
+    {
+      "id": 6,
+      "name": "โรงแรมริเวอร์ไซด์ กาญจนบุรี",
+      "type": "hotel",
+      "location": {
+        "city": "กาญจนบุรี",
+        "district": "เมืองกาญจนบุรี",
+        "address": "128 ถนนแม่น้ำแคว ต.บ้านเหนือ อ.เมือง จ.กาญจนบุรี 71000",
+        "coordinates": {
+          "lat": 14.0227,
+          "lng": 99.5328
+        }
+      },
+      "description": "โรงแรมริมแม่น้ำแคว วิวสวยงาม ใกล้สะพานข้ามแม่น้ำแคว",
+      "amenities": [
+        "WiFi ฟรี",
+        "ร้านอาหาร",
+        "ที่จอดรถ",
+        "แอร์",
+        "ระเบียงริมน้ำ",
+        "บริการจองทัวร์"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1544986581-efac024faf62?w=800",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800"
+      ],
+      "rating": 4.3,
+      "reviews": 312,
+      "price_per_night": 1500,
+      "currency": "THB",
+      "rooms_available": 15,
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "034-567-8901",
+        "email": "info@riversidekanchanaburi.com"
+      }
+    },
+    {
+      "id": 7,
+      "name": "ภูเก็ต ซี วิว รีสอร์ท",
+      "type": "resort",
+      "location": {
+        "city": "ภูเก็ต",
+        "district": "กะทู้",
+        "address": "299/15 หาดกะตะ ต.กะรน อ.เมือง จ.ภูเก็ต 83100",
+        "coordinates": {
+          "lat": 7.8174,
+          "lng": 98.3061
+        }
+      },
+      "description": "รีสอร์ทริมทะเลหาดกะตะ วิวพาโนราม่า พร้อมสิ่งอำนวยความสะดวกครบครัน",
+      "amenities": [
+        "WiFi ฟรี",
+        "สระว่ายน้ำ",
+        "ฟิตเนส",
+        "สปา",
+        "ร้านอาหาร",
+        "ที่จอดรถ",
+        "แอร์",
+        "ริมทะเล"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800",
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800"
+      ],
+      "rating": 4.9,
+      "reviews": 567,
+      "price_per_night": 4200,
+      "currency": "THB",
+      "rooms_available": 7,
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "cancellation_policy": "ยกเลิกฟรี 48 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "076-333-4567",
+        "email": "booking@phuketseaview.com"
+      }
+    },
+    {
+      "id": 8,
+      "name": "เกาะสมุย บีช วิลล่า",
+      "type": "villa",
+      "location": {
+        "city": "สุราษฎร์ธานี",
+        "district": "เกาะสมุย",
+        "address": "88/2 หาดเฉวง ต.บ่อผุด อ.เกาะสมุย จ.สุราษฎร์ธานี 84320",
+        "coordinates": {
+          "lat": 9.5378,
+          "lng": 100.0608
+        }
+      },
+      "description": "วิลล่าส่วนตัวติดหาดเฉวง พร้อมสระส่วนตัว และบริการส่วนตัว",
+      "amenities": [
+        "WiFi ฟรี",
+        "สระว่ายน้ำส่วนตัว",
+        "ครัวส่วนตัว",
+        "แอร์",
+        "ริมทะเล",
+        "บริการส่วนตัว",
+        "จาคูซี่"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800",
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800"
+      ],
+      "rating": 4.8,
+      "reviews": 145,
+      "price_per_night": 5500,
+      "currency": "THB",
+      "rooms_available": 2,
+      "check_in": "16:00",
+      "check_out": "11:00",
+      "cancellation_policy": "ไม่สามารถยกเลิกได้",
+      "contact": {
+        "phone": "077-999-1234",
+        "email": "luxury@samuibeach.com"
+      }
+    },
+    {
+      "id": 9,
+      "name": "ไร่มิโซะ คาเฟ่ แอนด์ สเตย์",
+      "type": "guesthouse",
+      "location": {
+        "city": "เชียงราย",
+        "district": "แม่สาย",
+        "address": "15/1 หมู่ 2 ต.เวียงใต้ อ.แม่สาย จ.เชียงราย 57130",
+        "coordinates": {
+          "lat": 20.4283,
+          "lng": 99.8804
+        }
+      },
+      "description": "คาเฟ่และที่พักบรรยากาศญี่ปุ่น ท่ามกลางธรรมชาติ อากาศเย็นสบาย",
+      "amenities": [
+        "WiFi ฟรี",
+        "คาเฟ่",
+        "ที่จอดรถ",
+        "แอร์",
+        "สวน",
+        "ทะเลสาบ",
+        "จุดชมวิว"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1586611292717-f828b167408c?w=800",
+        "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800",
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800"
+      ],
+      "rating": 4.6,
+      "reviews": 98,
+      "price_per_night": 1100,
+      "currency": "THB",
+      "rooms_available": 6,
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "053-777-5555",
+        "email": "stay@raimiso.com"
+      }
+    },
+    {
+      "id": 10,
+      "name": "อิมพีเรียล พัทยา รีสอร์ท",
+      "type": "resort",
+      "location": {
+        "city": "ชลบุรี",
+        "district": "บางละมุง",
+        "address": "789 หาดจอมเทียน ต.นาจอมเทียน อ.สัตหีบ จ.ชลบุรี 20250",
+        "coordinates": {
+          "lat": 12.8756,
+          "lng": 100.9053
+        }
+      },
+      "description": "รีสอร์ทหรูหาดจอมเทียน พร้อมสิ่งอำนวยความสะดวกระดับ 5 ดาว",
+      "amenities": [
+        "WiFi ฟรี",
+        "สระว่ายน้ำ",
+        "ฟิตเนส",
+        "สปา",
+        "ร้านอาหาร",
+        "ที่จอดรถ",
+        "แอร์",
+        "ริมทะเล",
+        "บาร์"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800",
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+        "https://images.unsplash.com/photo-1578774204375-8f2c5bb90229?w=800"
+      ],
+      "rating": 4.7,
+      "reviews": 423,
+      "price_per_night": 3200,
+      "currency": "THB",
+      "rooms_available": 11,
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "038-456-7890",
+        "email": "reservation@imperialpattaya.com"
+      }
+    },
+    {
+      "id": 11,
+      "name": "บ้านสวนกรุ๊ป โฮมสเตย์",
+      "type": "homestay",
+      "location": {
+        "city": "สุพรรณบุรี",
+        "district": "สองพี่น้อง",
+        "address": "45/12 หมู่ 7 ต.สองพี่น้อง อ.สองพี่น้อง จ.สุพรรณบุรี 72110",
+        "coordinates": {
+          "lat": 14.1503,
+          "lng": 99.9417
+        }
+      },
+      "description": "โฮมสเตย์บรรยากาศชนบทไทย ดื่มด่ำกับวิถีชีวิตท้องถิิ่น",
+      "amenities": [
+        "WiFi ฟรี",
+        "ที่จอดรถ",
+        "พัดลม",
+        "จักรยาน",
+        "สวน",
+        "กิจกรรมท้องถิ่น",
+        "อาหารพื้นเมือง"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+        "https://images.unsplash.com/photo-1502780402662-acc01917e80e?w=800",
+        "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=800"
+      ],
+      "rating": 4.4,
+      "reviews": 73,
+      "price_per_night": 650,
+      "currency": "THB",
+      "rooms_available": 8,
+      "check_in": "15:00",
+      "check_out": "10:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "035-555-1111",
+        "email": "info@baansuangroup.com"
+      }
+    },
+    {
+      "id": 12,
+      "name": "หัวหิน แกรนด์ โฮเทล",
+      "type": "hotel",
+      "location": {
+        "city": "ประจวบคีรีขันธ์",
+        "district": "หัวหิน",
+        "address": "333 ถนนเพชรเกษม ต.หัวหิน อ.หัวหิน จ.ประจวบคีรีขันธ์ 77110",
+        "coordinates": {
+          "lat": 12.5664,
+          "lng": 99.9581
+        }
+      },
+      "description": "โรงแรมคลาสสิคใจกลางหัวหิน ใกล้ตลาดคืนและหาดหัวหิน",
+      "amenities": [
+        "WiFi ฟรี",
+        "สระว่ายน้ำ",
+        "ฟิตเนส",
+        "ร้านอาหาร",
+        "ที่จอดรถ",
+        "แอร์",
+        "บริการรูมเซอร์วิส"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800",
+        "https://images.unsplash.com/photo-1587061949409-02df41d5e562?w=800"
+      ],
+      "rating": 4.5,
+      "reviews": 289,
+      "price_per_night": 2100,
+      "currency": "THB",
+      "rooms_available": 9,
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "032-789-0123",
+        "email": "info@huahingrand.com"
+      }
+    },
+    {
+      "id": 13,
+      "name": "เลาจ์ เกาะยาว",
+      "type": "resort",
+      "location": {
+        "city": "พังงา",
+        "district": "เกาะยาว",
+        "address": "77/5 หมู่ 4 ต.เกาะยาวใหญ่ อ.เกาะยาว จ.พังงา 82160",
+        "coordinates": {
+          "lat": 8.1467,
+          "lng": 98.5825
+        }
+      },
+      "description": "รีสอร์ทเอ็กซ์คลูซีฟบนเกาะยาว บรรยากาศส่วนตัว เงียบสงบ",
+      "amenities": [
+        "WiFi ฟรี",
+        "สระว่ายน้ำ",
+        "สปา",
+        "ร้านอาหาร",
+        "เรือส่วนตัว",
+        "แอร์",
+        "ริมทะเล",
+        "ดำน้ำ"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800",
+        "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800"
+      ],
+      "rating": 4.9,
+      "reviews": 67,
+      "price_per_night": 6800,
+      "currency": "THB",
+      "rooms_available": 3,
+      "check_in": "15:00",
+      "check_out": "11:00",
+      "cancellation_policy": "ไม่สามารถยกเลิกได้",
+      "contact": {
+        "phone": "076-555-9999",
+        "email": "exclusive@koyaolodge.com"
+      }
+    },
+    {
+      "id": 14,
+      "name": "แสงแดด เกสต์เฮาส์",
+      "type": "guesthouse",
+      "location": {
+        "city": "กระบี่",
+        "district": "เมืองกระบี่",
+        "address": "55/8 ถนนกองกา ต.ปากน้ำ อ.เมือง จ.กระบี่ 81000",
+        "coordinates": {
+          "lat": 8.0863,
+          "lng": 98.9063
+        }
+      },
+      "description": "เกสต์เฮาส์อบอุ่นใจกลางตัวเมืองกระบี่ ใกล้ท่าเรือและแหล่งท่องเที่ยว",
+      "amenities": [
+        "WiFi ฟรี",
+        "ที่จอดรถ",
+        "แอร์",
+        "เครื่องชงกาแฟ",
+        "ระเบียง",
+        "บริการจองทัวร์"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800",
+        "https://images.unsplash.com/photo-1586611292717-f828b167408c?w=800",
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800"
+      ],
+      "rating": 4.2,
+      "reviews": 134,
+      "price_per_night": 950,
+      "currency": "THB",
+      "rooms_available": 7,
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "075-123-4567",
+        "email": "info@saengdadguest.com"
+      }
+    },
+    {
+      "id": 15,
+      "name": "ฟูรามา เอ็กซ์คลูซีฟ สีลม",
+      "type": "hotel",
+      "location": {
+        "city": "กรุงเทพมหานคร",
+        "district": "บางรัก",
+        "address": "259 ถนนสีลม แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500",
+        "coordinates": {
+          "lat": 13.7247,
+          "lng": 100.5341
+        }
+      },
+      "description": "โรงแรมบูติกใจกลางสีลม ใกล้ BTS ศาลาแดง และย่านไนท์ไลฟ์",
+      "amenities": [
+        "WiFi ฟรี",
+        "สระว่ายน้ำ",
+        "ฟิตเนส",
+        "ร้านอาหาร",
+        "ที่จอดรถ",
+        "แอร์",
+        "บาร์",
+        "รูมเซอร์วิส 24 ชม."
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1578774204375-8f2c5bb90229?w=800",
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800"
+      ],
+      "rating": 4.6,
+      "reviews": 378,
+      "price_per_night": 2800,
+      "currency": "THB",
+      "rooms_available": 14,
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "02-678-9012",
+        "email": "booking@furamasilom.com"
+      }
+    },
+    {
+      "id": 16,
+      "name": "ปางอุ๋ง ฟอเรสต์ โฮมสเตย์",
+      "type": "homestay",
+      "location": {
+        "city": "แม่ฮ่องสอน",
+        "district": "ปางมะผ้า",
+        "address": "88/1 หมู่ 8 ต.ปางมะผ้า อ.ปางมะผ้า จ.แม่ฮ่องสอน 58150",
+        "coordinates": {
+          "lat": 19.6086,
+          "lng": 98.2544
+        }
+      },
+      "description": "โฮมสเตย์ท่ามกลางป่าไผ่ ธรรมชาติสวยงาม อากาศหนาวเย็น",
+      "amenities": [
+        "WiFi ฟรี",
+        "ที่จอดรถ",
+        "พัดลม",
+        "เตาผิง",
+        "จุดชมวิว",
+        "เดินป่า",
+        "กิจกรรมธรรมชาติ"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1502780402662-acc01917e80e?w=800",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+        "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=800"
+      ],
+      "rating": 4.8,
+      "reviews": 45,
+      "price_per_night": 750,
+      "currency": "THB",
+      "rooms_available": 5,
+      "check_in": "15:00",
+      "check_out": "10:00",
+      "cancellation_policy": "ยกเลิกฟรี 48 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "053-999-7777",
+        "email": "stay@pangung.com"
+      }
+    },
+    {
+      "id": 17,
+      "name": "บ้านไผ่ รีสอร์ท น่าน",
+      "type": "resort",
+      "location": {
+        "city": "น่าน",
+        "district": "เมืองน่าน",
+        "address": "123/5 ถนนสุริยพงษ์ ต.ในเวียง อ.เมือง จ.น่าน 55000",
+        "coordinates": {
+          "lat": 18.7756,
+          "lng": 100.7714
+        }
+      },
+      "description": "รีสอร์ทสไตล์ล้านนา ท่ามกลางสวนไผ่ สงบเงียb ใกล้วัดภูมินทร์",
+      "amenities": [
+        "WiFi ฟรี",
+        "ร้านอาหาร",
+        "ที่จอดรถ",
+        "แอร์",
+        "สวน",
+        "จุดชมวิว",
+        "จักรยาน"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1587061949409-02df41d5e562?w=800",
+        "https://images.unsplash.com/photo-1455587734955-081b22074882?w=800",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800"
+      ],
+      "rating": 4.4,
+      "reviews": 89,
+      "price_per_night": 1350,
+      "currency": "THB",
+      "rooms_available": 8,
+      "check_in": "14:00",
+      "check_out": "12:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "054-777-8888",
+        "email": "info@baanpainan.com"
+      }
+    },
+    {
+      "id": 18,
+      "name": "อ่าวนาง คลิฟ รีสอร์ท",
+      "type": "resort",
+      "location": {
+        "city": "กระบี่",
+        "district": "เมืองกระบี่",
+        "address": "567/8 หาดอ่าวนาง ต.อ่าวนาง อ.เมือง จ.กระบี่ 81000",
+        "coordinates": {
+          "lat": 8.0182,
+          "lng": 98.8419
+        }
+      },
+      "description": "รีสอร์ทหรูริมหาดอ่าวนาง วิวหน้าผาปูนขาวสวยงาม",
+      "amenities": [
+        "WiFi ฟรี",
+        "สระว่ายน้ำ",
+        "ฟิตเนส",
+        "สปา",
+        "ร้านอาหาร",
+        "ที่จอดรถ",
+        "แอร์",
+        "ริมทะเล",
+        "คายัค"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800",
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800"
+      ],
+      "rating": 4.7,
+      "reviews": 234,
+      "price_per_night": 3800,
+      "currency": "THB",
+      "rooms_available": 6,
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "cancellation_policy": "ยกเลิกฟรี 48 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "075-987-6543",
+        "email": "reservation@aonangcliff.com"
+      }
+    },
+    {
+      "id": 19,
+      "name": "บ้านสวนดอกไม้ เลย",
+      "type": "guesthouse",
+      "location": {
+        "city": "เลย",
+        "district": "เมืองเลย",
+        "address": "89/12 ถนนจรรยาพิทักษ์ ต.กุดป่อง อ.เมือง จ.เลย 42000",
+        "coordinates": {
+          "lat": 17.4831,
+          "lng": 101.7223
+        }
+      },
+      "description": "เกสต์เฮาส์บรรยากาศอบอุ่น ท่ามกลางสวนดอกไม้ อากาศเย็นสบาย",
+      "amenities": [
+        "WiFi ฟรี",
+        "ที่จอดรถ",
+        "แอร์",
+        "สวนดอกไม้",
+        "ระเบียง",
+        "เครื่องชงกาแฟ"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800",
+        "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800",
+        "https://images.unsplash.com/photo-1586611292717-f828b167408c?w=800"
+      ],
+      "rating": 4.5,
+      "reviews": 67,
+      "price_per_night": 980,
+      "currency": "THB",
+      "rooms_available": 9,
+      "check_in": "14:00",
+      "check_out": "11:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "042-123-9876",
+        "email": "info@gardenloei.com"
+      }
+    },
+    {
+      "id": 20,
+      "name": "เซ็นทารา ริเวอร์ไซด์ กรุงเทพ",
+      "type": "hotel",
+      "location": {
+        "city": "กรุงเทพมหานคร",
+        "district": "บางกอกน้อย",
+        "address": "2 ถนนแชริง ครอส แขวงบางลำภูล่าง เขตคลองสาน กรุงเทพมหานคร 10600",
+        "coordinates": {
+          "lat": 13.7276,
+          "lng": 100.4963
+        }
+      },
+      "description": "โรงแรมหรูริมแม่น้ำเจ้าพระยา วิวสวยงาม ใกล้วัดอรุณราชวรารามฯ",
+      "amenities": [
+        "WiFi ฟรี",
+        "สระว่ายน้ำ",
+        "ฟิตเนส",
+        "สปา",
+        "ร้านอาหาร",
+        "ที่จอดรถ",
+        "แอร์",
+        "เรือรับส่ง",
+        "บาร์"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+        "https://images.unsplash.com/photo-1544986581-efac024faf62?w=800",
+        "https://images.unsplash.com/photo-1578774204375-8f2c5bb90229?w=800"
+      ],
+      "rating": 4.8,
+      "reviews": 512,
+      "price_per_night": 4500,
+      "currency": "THB",
+      "rooms_available": 8,
+      "check_in": "15:00",
+      "check_out": "12:00",
+      "cancellation_policy": "ยกเลิกฟรี 24 ชั่วโมงก่อนเช็คอิน",
+      "contact": {
+        "phone": "02-431-0123",
+        "email": "stay@centarariversidebkk.com"
+      }
+    }
+  ],
+  "search_filters": {
+    "price_range": {
+      "min": 650,
+      "max": 6800,
+      "currency": "THB"
+    },
+    "accommodation_types": [
+      "hotel",
+      "resort",
+      "villa",
+      "guesthouse",
+      "homestay"
+    ],
+    "locations": [
+      "กรุงเทพมหานคร",
+      "เพชรบุรี",
+      "นครราชสีมา",
+      "เชียงใหม่",
+      "ราชบุรี",
+      "กาญจนบุรี",
+      "ภูเก็ต",
+      "สุราษฎร์ธานี",
+      "เชียงราย",
+      "ชลบุรี",
+      "สุพรรณบุรี",
+      "ประจวบคีรีขันธ์",
+      "พังงา",
+      "กระบี่",
+      "แม่ฮ่องสอน",
+      "น่าน",
+      "เลย"
+    ],
+    "amenities": [
+      "WiFi ฟรี",
+      "สระว่ายน้ำ",
+      "ฟิตเนส",
+      "สปา",
+      "ร้านอาหาร",
+      "ที่จอดรถ",
+      "แอร์",
+      "ริมทะเล",
+      "สวน",
+      "บาร์",
+      "รูมเซอร์วิส",
+      "ครัวส่วนตัว"
+    ],
+    "rating_range": {
+      "min": 4.0,
+      "max": 5.0
+    }
+  },
+  "booking_info": {
+    "currency": "THB",
+    "payment_methods": [
+      "เงินสด",
+      "บัตรเครดิต",
+      "โอนเงิน",
+      "PromptPay"
+    ],
+    "booking_terms": "ราคาอาจมีการเปลี่ยนแปลงขึ้นอยู่กับช่วงเวลาและความพร้อมของห้องพัก",
+    "check_availability": "กรุณาตรวจสอบความพร้อมของห้องพักก่อนทำการจอง"
+  }
+}
