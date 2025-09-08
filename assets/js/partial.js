@@ -1,6 +1,6 @@
 class MyHeader extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
 <header class="app-header fixed-top">
 		<div class="app-header-inner">
 			<div class="container-fluid py-2">
@@ -65,6 +65,15 @@ class MyHeader extends HTMLElement {
 							</a>
 						</li>
 
+						<li class="nav-item">
+							<a class="nav-link" href="item.html">
+								<span class="nav-icon">
+									<i class="fa-solid fa-address-card"></i>
+								</span>
+								<span class="nav-link-text">รายการอาหาร</span>
+							</a>
+						</li>
+
 					</ul>
 				</nav>
 
@@ -72,7 +81,7 @@ class MyHeader extends HTMLElement {
 		</div>
 	</header>
     `
-  }
+	}
 }
 
 customElements.define(`my-header`, MyHeader)
