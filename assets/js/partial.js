@@ -50,7 +50,7 @@ class MyHeader extends HTMLElement {
 						<li class="nav-item">
 							<a class="nav-link" href="food.html">
 								<span class="nav-icon">
-									<i class="fa-solid fa-address-card"></i>
+									<i class="fa-solid fa-utensils"></i>
 								</span>
 								<span class="nav-link-text">Food</span>
 							</a>
