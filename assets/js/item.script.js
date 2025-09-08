@@ -17,9 +17,9 @@ function renderHotelRoom(foods) {
         let data = ``
         foods.forEach(f => {
             data += `
-                <div class="col col-6 col-md-3">
-                <div class="card h-100" style="width: 18rem;">
-                    <img src="${f.image}" class="card-img-top object-fit-cover" style="height: 240px;" alt="picture">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 mx-auto" style="width: 17rem;">
+                    <img src="${f.image}" class="card-img-top object-fit-cover" style="height: 200px;" alt="picture">
                     
                     <div class="card-body d-flex flex-column">
                     <p class="card-text">

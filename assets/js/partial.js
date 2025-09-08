@@ -61,19 +61,9 @@ class MyHeader extends HTMLElement {
 								<span class="nav-icon">
 									<i class="fa-solid fa-utensils"></i>
 								</span>
-								<span class="nav-link-text">รายการอาหาร</span>
+								<span class="nav-link-text">เมนู</span>
 							</a>
 						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="item.html">
-								<span class="nav-icon">
-									<i class="fa-solid fa-utensils"></i>
-								</span>
-								<span class="nav-link-text">รายการอาหาร</span>
-							</a>
-						</li>
-
 					</ul>
 				</nav>
 
