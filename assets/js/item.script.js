@@ -1,42 +1,76 @@
-fetch("http://54.169.154.143:3096/food-menus", {
-    method: 'GET',
-    redirect: 'follow'
+document.addEventListener('DOMContentLoaded', async function () {
+    let url = 'http://54.169.154.143:3096/food-menus';
+    // let url = './json/hotels.json';
+    await fetch(url)
+        .then(res => res.json())
+        .then(json => {
+            console.log(json);
+            renderHotelRoom(json);
+        })
+        .catch(err => {
+            console.log(`Error: ${err}`)
+        })
 })
-    .then(response => response.json())
-    .then(result => {
-        console.log(result);
-        let data = '';
-        result.forEach(food => {
+function renderHotelRoom(foods) {
+    let data_area = document.querySelector('#data_area');
+    if (foods.length > 0) {
+        let data = ``
+        foods.forEach(f => {
             data += `
-            <div class="card" style="width: 18rem; ">
-            <img src="${food.image}" class="card-img-top mt-2" style="height: 200px; object-fit: cover;" alt="xxx">
-            <div class="card-body">
-              <h6 class="card-title text-danger">${food.price}</h6>
-              <h5 class="card-title">${food.name} (${food.name_en})</h5>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <a href="#" class="text-white">Order</a>
-              </button>
-              <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                <p class="card-text">${food.description}</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="col col-6 col-md-3">
+                <div class="card h-100" style="width: 18rem;">
+                    <img src="${f.image}" class="card-img-top object-fit-cover" style="height: 240px;" alt="picture">
+                    
+                    <div class="card-body d-flex flex-column">
+                    <p class="card-text">
+                        <strong>${f.name} (${f.name_en})</strong><br>
+                        ${f.description}<br>
+                        <strong>ราคา: </strong> ${f.price} บาท
+                    </p>
+
+                    <!-- ปุ่มอยู่ล่างสุด -->
+                    <div class="mt-auto text-center">
+                        <button type="button" class="btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        รายละเอียด
+                        </button>
+                        <a href="#" class="btn btn-secondary text-white">สั่งอาหาร</a>
+                    </div>
+                    </div>
                 </div>
                 </div>
-            </div>
-            </div>
-            </div>
-          </div>`
+
+                <!-- Modal แยกออกมาจากการ์ด -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content px-3">
+                        <div class="modal-header-row">
+                            <h1 class="modal-title fs-5 my-3" id="exampleModalLabel">รายละเอียด</h1>
+                            <img src="${f.image}" class="card-img-top mt-2" style="height: 200px; object-fit: cover;" alt="xxx">
+                            <h6 class="card-title text-danger pt-2  pb-2">${"ราคา"} ${f.price} ${"บาท"}</h6>
+                            <h5 class="card-title text-black">${f.name} (${f.name_en})</h5>
+                            <p class="card-text">${f.description}</p>
+                            <hr>
+                        </div>
+                        <div class="modal-body">
+                            <h6>วัตถุดิบหลัก</h6>
+                            <p class="card-text">${f.ingredients}</p>
+
+                            <div class="alert alert-danger d-flex align-items-center" role="alert">
+                            <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                            <span>⚠ อาหารนี้มีส่วนผสมของ: <strong>${f.allergens}</strong></span>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+                            <button type="button" class="btn btn-primary">บันทึก</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            `
         });
-        document.getElementById('food-list').innerHTML = data;
-    })
-    .catch(error => console.log('error', error));
+        data_area.innerHTML = data
+    } else {
+        console.log(`No data`)
+    }
+}

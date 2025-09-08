@@ -43,16 +43,7 @@ class MyHeader extends HTMLElement {
 								<span class="nav-icon">
 									<i class="fa-solid fa-house-chimney"></i>
 								</span>
-								<span class="nav-link-text">Dashboard</span>
-							</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="food.html">
-								<span class="nav-icon">
-									<i class="fa-solid fa-utensils"></i>
-								</span>
-								<span class="nav-link-text">Food</span>
+								<span class="nav-link-text">หน้าแรก</span>
 							</a>
 						</li>
 
@@ -68,7 +59,16 @@ class MyHeader extends HTMLElement {
 						<li class="nav-item">
 							<a class="nav-link" href="item.html">
 								<span class="nav-icon">
-									<i class="fa-solid fa-address-card"></i>
+									<i class="fa-solid fa-utensils"></i>
+								</span>
+								<span class="nav-link-text">รายการอาหาร</span>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="item.html">
+								<span class="nav-icon">
+									<i class="fa-solid fa-utensils"></i>
 								</span>
 								<span class="nav-link-text">รายการอาหาร</span>
 							</a>
